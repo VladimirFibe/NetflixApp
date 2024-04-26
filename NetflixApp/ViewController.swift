@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.addSubview(collectionView)
         
+        let heroRegistration = UICollectionView.CellRegistration<HeroCell, Movie>(handler: cellRegistrationHandler)
+        
         let cellRegistration = UICollectionView.CellRegistration<MovieCell, Movie>(handler: cellRegistrationHandler)
         
         let supplementaryRegistration = UICollectionView.SupplementaryRegistration<HomeSectionHeader>(elementKind: UICollectionView.elementKindSectionHeader) { supplementaryView, elementKind, indexPath in
@@ -34,7 +36,11 @@ class ViewController: UIViewController {
         }
         
         dataSorce = DataSource(collectionView: collectionView) { collectionView, indexPath, movie in
-            collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: movie)
+            guard let section = Section(rawValue: indexPath.section) else { fatalError() }
+            switch section {
+            case .hero: return collectionView.dequeueConfiguredReusableCell(using: heroRegistration, for: indexPath, item: movie)
+            case .movie: return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: movie)
+            }
         }
         
         dataSorce.supplementaryViewProvider = { collectionView, kind, indexPath in
