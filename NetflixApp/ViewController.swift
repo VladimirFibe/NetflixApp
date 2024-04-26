@@ -25,15 +25,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createLayout())
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        collectionView.backgroundColor = .blue
         view.addSubview(collectionView)
         
         let cellRegistration = UICollectionView.CellRegistration<UICollectionViewCell, Movie> { cell, indexPath, movie in
             cell.backgroundColor = .red
         }
         
+        let supplementaryRegistration = UICollectionView.SupplementaryRegistration<HomeSectionHeader>(elementKind: UICollectionView.elementKindSectionHeader) { supplementaryView, elementKind, indexPath in
+            supplementaryView.confugure(with: "Continue Watching for Ellie")
+        }
+        
         dataSorce = DataSource(collectionView: collectionView) { collectionView, indexPath, movie in
             collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: movie)
+        }
+        
+        dataSorce.supplementaryViewProvider = { collectionView, kind, indexPath in
+            self.collectionView.dequeueConfiguredReusableSupplementary(using: supplementaryRegistration, for: indexPath)
         }
         
         var snapshot = Snapshot()
@@ -72,6 +79,16 @@ extension ViewController {
         let section = NSCollectionLayoutSection(group: group)
         section.orthogonalScrollingBehavior = .continuous
         section.interGroupSpacing = 8
+        
+        let headerSize = NSCollectionLayoutSize(
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .estimated(30))
+        let header = NSCollectionLayoutBoundarySupplementaryItem(
+            layoutSize: headerSize,
+            elementKind: UICollectionView.elementKindSectionHeader,
+            alignment: .top)
+        section.boundarySupplementaryItems = [header]
+        
         return section
     }
  
