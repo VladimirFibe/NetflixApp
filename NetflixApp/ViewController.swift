@@ -27,9 +27,7 @@ class ViewController: UIViewController {
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.addSubview(collectionView)
         
-        let cellRegistration = UICollectionView.CellRegistration<UICollectionViewCell, Movie> { cell, indexPath, movie in
-            cell.backgroundColor = .red
-        }
+        let cellRegistration = UICollectionView.CellRegistration<MovieCell, Movie>(handler: cellRegistrationHandler)
         
         let supplementaryRegistration = UICollectionView.SupplementaryRegistration<HomeSectionHeader>(elementKind: UICollectionView.elementKindSectionHeader) { supplementaryView, elementKind, indexPath in
             supplementaryView.confugure(with: "Continue Watching for Ellie")
@@ -48,6 +46,10 @@ class ViewController: UIViewController {
         snapshot.appendItems([Movie()], toSection: .hero)
         snapshot.appendItems([Movie(), Movie(), Movie(), Movie(), Movie()], toSection: .movie)
         dataSorce.apply(snapshot)
+    }
+    
+    private func cellRegistrationHandler<T: SelfCofiguringMovieCell>(cell: T, indexPath: IndexPath, movie: Movie) {
+        cell.configure(with: movie)
     }
 }
 
