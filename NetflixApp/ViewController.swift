@@ -23,17 +23,25 @@ class ViewController: UIViewController {
     private var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createLayout())
-        collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.addSubview(collectionView)
-        
+        setupCollectionView()
+        createDataSource()
+        reloadData()
+    }
+    
+    private func cellRegistrationHandler<T: SelfCofiguringMovieCell>(cell: T, indexPath: IndexPath, movie: Movie) {
+        cell.configure(with: movie)
+    }
+    
+    private func headerRegistrationHandler(view: HomeSectionHeader, kind: String, indexPath: IndexPath) {
+        view.confugure(with: "Continue Watching for Ellie")
+    }
+    
+    private func createDataSource() {
         let heroRegistration = UICollectionView.CellRegistration<HeroCell, Movie>(handler: cellRegistrationHandler)
         
         let cellRegistration = UICollectionView.CellRegistration<MovieCell, Movie>(handler: cellRegistrationHandler)
         
-        let supplementaryRegistration = UICollectionView.SupplementaryRegistration<HomeSectionHeader>(elementKind: UICollectionView.elementKindSectionHeader) { supplementaryView, elementKind, indexPath in
-            supplementaryView.confugure(with: "Continue Watching for Ellie")
-        }
+        let supplementaryRegistration = UICollectionView.SupplementaryRegistration<HomeSectionHeader>(elementKind: UICollectionView.elementKindSectionHeader, handler: headerRegistrationHandler)
         
         dataSorce = DataSource(collectionView: collectionView) { collectionView, indexPath, movie in
             guard let section = Section(rawValue: indexPath.section) else { fatalError() }
@@ -46,16 +54,20 @@ class ViewController: UIViewController {
         dataSorce.supplementaryViewProvider = { collectionView, kind, indexPath in
             self.collectionView.dequeueConfiguredReusableSupplementary(using: supplementaryRegistration, for: indexPath)
         }
-        
+    }
+    
+    private func setupCollectionView() {
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createLayout())
+        collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(collectionView)
+    }
+    
+    private func reloadData() {
         var snapshot = Snapshot()
         snapshot.appendSections(Section.allCases)
         snapshot.appendItems([Movie()], toSection: .hero)
         snapshot.appendItems([Movie(), Movie(), Movie(), Movie(), Movie()], toSection: .movie)
         dataSorce.apply(snapshot)
-    }
-    
-    private func cellRegistrationHandler<T: SelfCofiguringMovieCell>(cell: T, indexPath: IndexPath, movie: Movie) {
-        cell.configure(with: movie)
     }
 }
 
