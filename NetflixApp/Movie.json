@@ -1,0 +1,398 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/FUnAVgaTs5xZWXcVzPJNxd9qGA.jpg",
+        "genre_ids": [
+            878,
+            28,
+            18,
+            12
+        ],
+        "id": 934632,
+        "original_language": "en",
+        "original_title": "Rebel Moon — Part Two: The Scargiver",
+        "overview": "Пришло время для нерушимых союзов, новых героев и легенд: повстанцы готовятся к битве с жестокой армией Праматери.",
+        "popularity": 2018.458,
+        "poster_path": "/habjuTKViM4zU75aM4Zef2mie70.jpg",
+        "release_date": "2024-04-19",
+        "title": "Rebel Moon. Часть вторая: Оставляющая шрамы",
+        "video": false,
+        "vote_average": 6.14,
+        "vote_count": 454
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4woSOUD0equAYzvwhWBHIJDCM88.jpg",
+        "genre_ids": [
+            28,
+            27,
+            53
+        ],
+        "id": 1096197,
+        "original_language": "en",
+        "original_title": "No Way Up",
+        "overview": "Самолет терпит крушение в Тихом океане. Затонувший авиалайнер висит на краю пропасти, а выжившие оказываются в западне воздушного кармана. Запас воздуха постепенно заканчивается, и между пассажирами начинается борьба за выживание.",
+        "popularity": 1979.885,
+        "poster_path": "/hd7R6iAy1IfHyad2tuj35G7S7VZ.jpg",
+        "release_date": "2024-01-18",
+        "title": "Из глубины",
+        "video": false,
+        "vote_average": 6.361,
+        "vote_count": 441
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "id": 823464,
+        "original_language": "en",
+        "original_title": "Godzilla x Kong: The New Empire",
+        "overview": "После своей бурной схватки Годзилла и Конг должны объединиться против колоссальной нераскрытой угрозы, скрытой в нашем мире, бросающей вызов самому их существованию – и нашему собственному.",
+        "popularity": 1722.61,
+        "poster_path": "/q1aUvQflQ4oYPkxrodmzOQgNfBJ.jpg",
+        "release_date": "2024-03-27",
+        "title": "Годзилла и Конг: Новая Империя",
+        "video": false,
+        "vote_average": 6.616,
+        "vote_count": 754
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg",
+        "genre_ids": [
+            16,
+            28,
+            10751,
+            35,
+            14
+        ],
+        "id": 1011985,
+        "original_language": "en",
+        "original_title": "Kung Fu Panda 4",
+        "overview": "По готовится стать духовным лидером своей Долины Мира, но ему также нужен кто-то, кто займет его место Воина Дракона.  Таким образом, он будет обучать нового практикующего кунг-фу для этого места и столкнется со злодеем по имени Хамелеон, который вызывает злодеев из прошлого.",
+        "popularity": 1513.697,
+        "poster_path": "/dRAduMGRNCXLa5RisoubltHYJ2x.jpg",
+        "release_date": "2024-03-02",
+        "title": "Кунг-фу Панда 4",
+        "video": false,
+        "vote_average": 7.148,
+        "vote_count": 1301
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/8uVKfOJUhmybNsVh089EqLHUYEG.jpg",
+        "genre_ids": [
+            878,
+            12
+        ],
+        "id": 693134,
+        "original_language": "en",
+        "original_title": "Dune: Part Two",
+        "overview": "Герцог Пол Атрейдес присоединяется к фременам, чтобы стать Муад Дибом, одновременно пытаясь остановить наступление войны.",
+        "popularity": 1395.205,
+        "poster_path": "/3aLghRkuJc9cs770fxo4a6YWht3.jpg",
+        "release_date": "2024-02-27",
+        "title": "Дюна: Часть вторая",
+        "video": false,
+        "vote_average": 8.261,
+        "vote_count": 3356
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pIFGZRCWjdQwECoXcphCCe1tl0B.jpg",
+        "genre_ids": [
+            27,
+            9648,
+            53
+        ],
+        "id": 1041613,
+        "original_language": "en",
+        "original_title": "Immaculate",
+        "overview": "Церковь знала лишь один случай непорочного зачатия, но, похоже, что новая монахиня Сесилия в итальянском монастыре стала второй девственницей, которая вынашивает ребенка. Местные монахи объявили о чуде, но никто точно не знает, кого на самом деле носит под сердцем девушка — нового спасителя или того, кто погрузит мир в вечную тьму.",
+        "popularity": 1231.783,
+        "poster_path": "/vXtzPSnvPOVEsQYJ6VwZXcRZB4j.jpg",
+        "release_date": "2024-03-20",
+        "title": "Омен. Непорочная",
+        "video": false,
+        "vote_average": 6.213,
+        "vote_count": 277
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/fUC5VsQcU3m6zmYMD96R7RqPuMn.jpg",
+        "genre_ids": [
+            28,
+            80,
+            53
+        ],
+        "id": 1105407,
+        "original_language": "en",
+        "original_title": "Damaged",
+        "overview": "Полиция Чикаго так и не смогла поймать серийного убийцу, который несколько лет держал город в страхе. Но однажды он исчез — так же неожиданно, как и появился. Все забыли о жестоком преступнике. Все, кроме детектива, который расследовал его дело. Спустя пять лет в Шотландии начали происходить убийства с тем же почерком. Детективу придется отправиться на другой конец света, чтобы, наконец, поймать убийцу и отомстить за смерть своей любимой.",
+        "popularity": 833.01,
+        "poster_path": "/AusoO8766oTq3o1PQeJpuPbt9hZ.jpg",
+        "release_date": "2024-04-12",
+        "title": "След киллера",
+        "video": false,
+        "vote_average": 4.7,
+        "vote_count": 38
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pwGmXVKUgKN13psUjlhC9zBcq1o.jpg",
+        "genre_ids": [
+            28,
+            14
+        ],
+        "id": 634492,
+        "original_language": "en",
+        "original_title": "Madame Web",
+        "overview": "История происхождения ясновидящей, известной как мадам Паутина, чьи экстрасенсорные способности позволяют ей видеть в мире пауков.",
+        "popularity": 709.958,
+        "poster_path": "/8eyCtvA0hqoagcfjsieTrBecQbq.jpg",
+        "release_date": "2024-02-14",
+        "title": "Мадам Паутина",
+        "video": false,
+        "vote_average": 5.6,
+        "vote_count": 1138
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/2KGxQFV9Wp1MshPBf8BuqWUgVAz.jpg",
+        "genre_ids": [
+            16,
+            28,
+            12,
+            35,
+            10751
+        ],
+        "id": 940551,
+        "original_language": "en",
+        "original_title": "Migration",
+        "overview": "Семья уток пытается убедить своего слишком заботливого отца отправиться в отпуск всей жизни.",
+        "popularity": 641.042,
+        "poster_path": "/eo8zw3IM9sQMut3M2kWBrKdLSkr.jpg",
+        "release_date": "2023-12-06",
+        "title": "Миграция",
+        "video": false,
+        "vote_average": 7.527,
+        "vote_count": 1238
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/umyOinNa6vqqnqoVc9QqzyaapUz.jpg",
+        "genre_ids": [
+            27
+        ],
+        "id": 938614,
+        "original_language": "en",
+        "original_title": "Late Night with the Devil",
+        "overview": "На Хэллоуин 1977 года ведущий популярного вечернего телешоу готовит нечто особенное. Это будет паранормальный сеанс в прямом эфире, и главной звездой вечера должна стать юная Лили — героиня книги «Разговоры с дьяволом». Гонящийся за рейтингами шоумен не подозревает, чем обернется для него и для всех зрителей попытка проникнуть с помощью девушки в потусторонний мир.",
+        "popularity": 632.951,
+        "poster_path": "/5D5EQEXhmq7L8iNiqdqFyrXIV6y.jpg",
+        "release_date": "2024-03-19",
+        "title": "Поздний вечер с дьяволом",
+        "video": false,
+        "vote_average": 7.238,
+        "vote_count": 191
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/unCdljyU2FuUBDUcdZezeI9yaaj.jpg",
+        "genre_ids": [
+            878,
+            9648,
+            53
+        ],
+        "id": 720321,
+        "original_language": "en",
+        "original_title": "Breathe",
+        "overview": "В мире, оставшемся без воздуха, для человека не нашлось места. Выжить удалось немногим — лишь тем, кто нашел спасение в специальных бункерах, жизнь в которых поддерживается с помощью генераторов, вырабатывающих кислород. Но столь ценная находка является всеобщим объектом охоты. Именно в этом безумном, жестоком и обреченном мире предстоит сражаться за жизнь обычной женщине, которая пойдет на все, чтобы подарить своей дочке хотя бы еще несколько бесценных глотков воздуха.",
+        "popularity": 606.104,
+        "poster_path": "/4pRonl4LTHFw567HyX0iYolyaWS.jpg",
+        "release_date": "2024-04-04",
+        "title": "Дыши!",
+        "video": false,
+        "vote_average": 5.088,
+        "vote_count": 57
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/cIztAxDn3H8JylRaJwiHHpkGe53.jpg",
+        "genre_ids": [
+            10751,
+            35,
+            16
+        ],
+        "id": 1239146,
+        "original_language": "en",
+        "original_title": "Woody Woodpecker Goes to Camp",
+        "overview": "После того как его выгоняют из леса, Вуди находит новый дом в лагере У-Ху. Он хочет остаться здесь навсегда, но инспектор грозится закрыть это место.",
+        "popularity": 589.228,
+        "poster_path": "/oAF42DFZA430eEzRmEcrpB0D3rp.jpg",
+        "release_date": "2024-04-12",
+        "title": "Вуди Вудпекер в летнем лагере",
+        "video": false,
+        "vote_average": 6.679,
+        "vote_count": 81
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/uv2twFGMk2qBdyJBJAVcrpRtSa9.jpg",
+        "genre_ids": [
+            10752,
+            28,
+            18
+        ],
+        "id": 929590,
+        "original_language": "en",
+        "original_title": "Civil War",
+        "overview": "События фильма развернутся в недалёком будущем, в котором 19 из 52 штатов США стали автономными, а Калифорния и Техас объединились для противостояния с правительством страны. Сюжет фильма расскажет о журналистке, которая оказывается втянута в жестокий конфликт между сторонами.",
+        "popularity": 546.424,
+        "poster_path": "/jYgvPrQIx8dUTivvpqkoBYCPapf.jpg",
+        "release_date": "2024-04-10",
+        "title": "Падение империи",
+        "video": false,
+        "vote_average": 7.45,
+        "vote_count": 410
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/vTlK3chwsEToSoQJYUcJaHlNhIf.jpg",
+        "genre_ids": [
+            18,
+            12
+        ],
+        "id": 618588,
+        "original_language": "en",
+        "original_title": "Arthur the King",
+        "overview": "Когда вы должны преодолеть 700 километров по джунглям и горам Эквадора, последнее, что вам нужно, — это бродячая истощенная собака, идущая по пятам. Но именно это и случилось с Микаэлем Линднордом, капитаном шведской команды по приключенческим гонкам, который уже предвкушал свою победу. Однако эта встреча полностью разрушила его планы.",
+        "popularity": 518.498,
+        "poster_path": "/aufA1yiiDpQF8YELXRV16T5aSrG.jpg",
+        "release_date": "2024-03-15",
+        "title": "Артур, ты король",
+        "video": false,
+        "vote_average": 6.67,
+        "vote_count": 53
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/qekky2LbtT1wtbD5MDgQvjfZQ24.jpg",
+        "genre_ids": [
+            28,
+            53
+        ],
+        "id": 984324,
+        "original_language": "fr",
+        "original_title": "Le salaire de la peur",
+        "overview": "У команды наемников есть меньше 24 часов, чтобы перевезти два грузовика со взрывчаткой через полную опасностей пустыню и предотвратить ужасную катастрофу.",
+        "popularity": 515.465,
+        "poster_path": "/mpZr0vVJxd2FGYumtAwr0MfrejV.jpg",
+        "release_date": "2024-03-28",
+        "title": "Плата за страх",
+        "video": false,
+        "vote_average": 5.737,
+        "vote_count": 192
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg",
+        "genre_ids": [
+            878,
+            12
+        ],
+        "id": 438631,
+        "original_language": "en",
+        "original_title": "Dune",
+        "overview": "Наследник знаменитого дома Атрейдесов Пол отправляется вместе с семьей на одну из самых опасных планет во Вселенной — Арракис. Здесь нет ничего, кроме песка, палящего солнца, гигантских чудовищ и основной причины межгалактических конфликтов — невероятно ценного ресурса, который называется меланж. В результате захвата власти Пол вынужден бежать и скрываться, и это становится началом его эпического путешествия. Враждебный мир Арракиса приготовил для него множество тяжелых испытаний, но только тот, кто готов взглянуть в глаза своему страху, достоин стать избранным.",
+        "popularity": 430.737,
+        "poster_path": "/3hbXNclcHaj5KiF6kK41GBMjyFr.jpg",
+        "release_date": "2021-09-15",
+        "title": "Дюна",
+        "video": false,
+        "vote_average": 7.79,
+        "vote_count": 11402
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/aINel9503ompOlGKn4sIVMg09Un.jpg",
+        "genre_ids": [
+            9648,
+            27,
+            53
+        ],
+        "id": 838209,
+        "original_language": "ko",
+        "original_title": "파묘",
+        "overview": "Эксгумация останков из загадочного захоронения приводит к ужасающим последствиям.",
+        "popularity": 430.058,
+        "poster_path": "/69M6TQVSbjbOClItLgd75ab5cNy.jpg",
+        "release_date": "2024-02-22",
+        "title": "Раскопанная могила",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 52
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "id": 872585,
+        "original_language": "en",
+        "original_title": "Oppenheimer",
+        "overview": "История жизни американского физика-теоретика Роберта Оппенгеймера, который во времена Второй мировой войны руководил Манхэттенским проектом — секретными разработками ядерного оружия.",
+        "popularity": 406.163,
+        "poster_path": "/8OQzw8keE6sDNH25sOqPRTxhFTO.jpg",
+        "release_date": "2023-07-19",
+        "title": "Оппенгеймер",
+        "video": false,
+        "vote_average": 8.111,
+        "vote_count": 7785
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/e3gVl1gnxEFKLTF6pn6KRqUPi9K.jpg",
+        "genre_ids": [
+            10749,
+            18
+        ],
+        "id": 1127166,
+        "original_language": "it",
+        "original_title": "Fabbricante di lacrime",
+        "overview": "После тяжелой жизни в детском доме Ника и Ригель оказываются в одной приемной семье и вдруг понимают, что их непреодолимо тянет друг к другу.",
+        "popularity": 396.158,
+        "poster_path": "/vwsAaBuEvzATbLSvmt0cli6vQRM.jpg",
+        "release_date": "2024-04-03",
+        "title": "Творец слез",
+        "video": false,
+        "vote_average": 6.54,
+        "vote_count": 442
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
+        "genre_ids": [
+            14,
+            12,
+            35
+        ],
+        "id": 967847,
+        "original_language": "en",
+        "original_title": "Ghostbusters: Frozen Empire",
+        "overview": "Семья Шпенглер возвращается туда где все начиналось – в знаменитую пожарную часть Нью–Йорка - чтобы объединиться с оригинальными охотниками за привидениями, которые создали сверхсекретную исследовательскую лабораторию, чтобы вывести борьбу с призраками на новый уровень. Но когда открытие древнего артефакта высвобождает злую силу, новые и старые охотники за привидениями должны объединить усилия чтобы защитить свой дом и спасти мир от второго ледникового периода.",
+        "popularity": 381.355,
+        "poster_path": "/xKQlIhCQIfSwkbbreyVV7j5LiFr.jpg",
+        "release_date": "2024-03-20",
+        "title": "Охотники за привидениями: Леденящий ужас",
+        "video": false,
+        "vote_average": 6.373,
+        "vote_count": 334
+    }
+]

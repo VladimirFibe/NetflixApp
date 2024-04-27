@@ -17,6 +17,8 @@
 		AB2BAE7F2BDC218100613055 /* SelfCofiguringMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BAE7E2BDC218100613055 /* SelfCofiguringMovieCell.swift */; };
 		AB2BAE812BDC21BF00613055 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BAE802BDC21BF00613055 /* MovieCell.swift */; };
 		AB2BAE832BDC220B00613055 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BAE822BDC220B00613055 /* HeroCell.swift */; };
+		ABDB4EA82BDC92AD00EB35FD /* Movie.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDB4EA72BDC92AD00EB35FD /* Movie.json */; };
+		ABDB4EAA2BDC969900EB35FD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB4EA92BDC969900EB35FD /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AB2BAE7E2BDC218100613055 /* SelfCofiguringMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCofiguringMovieCell.swift; sourceTree = "<group>"; };
 		AB2BAE802BDC21BF00613055 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		AB2BAE822BDC220B00613055 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		ABDB4EA72BDC92AD00EB35FD /* Movie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movie.json; sourceTree = "<group>"; };
+		ABDB4EA92BDC969900EB35FD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				AB2BAE7E2BDC218100613055 /* SelfCofiguringMovieCell.swift */,
 				AB2BAE802BDC21BF00613055 /* MovieCell.swift */,
 				AB2BAE822BDC220B00613055 /* HeroCell.swift */,
+				ABDB4EA72BDC92AD00EB35FD /* Movie.json */,
+				ABDB4EA92BDC969900EB35FD /* Movie.swift */,
 				AB2BAE6E2BDBFBE800613055 /* Main.storyboard */,
 				AB2BAE712BDBFBE900613055 /* Assets.xcassets */,
 				AB2BAE732BDBFBE900613055 /* LaunchScreen.storyboard */,
@@ -139,6 +145,7 @@
 			files = (
 				AB2BAE722BDBFBE900613055 /* Assets.xcassets in Resources */,
 				AB2BAE752BDBFBE900613055 /* Base in Resources */,
+				ABDB4EA82BDC92AD00EB35FD /* Movie.json in Resources */,
 				AB2BAE702BDBFBE800613055 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +163,7 @@
 				AB2BAE7F2BDC218100613055 /* SelfCofiguringMovieCell.swift in Sources */,
 				AB2BAE692BDBFBE800613055 /* AppDelegate.swift in Sources */,
 				AB2BAE832BDC220B00613055 /* HeroCell.swift in Sources */,
+				ABDB4EAA2BDC969900EB35FD /* Movie.swift in Sources */,
 				AB2BAE6B2BDBFBE800613055 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

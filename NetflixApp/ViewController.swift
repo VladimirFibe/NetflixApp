@@ -7,10 +7,6 @@
 
 import UIKit
 
-struct Movie: Hashable {
-    var id = UUID().uuidString
-}
-
 class ViewController: UIViewController {
     enum Section: Int, CaseIterable {
         case hero
@@ -23,6 +19,22 @@ class ViewController: UIViewController {
     private var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let file = "Movie.json"
+        guard let url = Bundle.main.url(forResource: file, withExtension: nil)
+        else { fatalError("Failed to locate \(file) in bundle.") }
+        print("DEBUG: ", url)
+        
+        guard let data = try? Data(contentsOf: url)
+        else { fatalError("Failed to load \(file) from bundle.")}
+        print("DEBUG: ", String(data: data, encoding: .utf8) ?? "no data")
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        
+        guard let loaded = try? decoder.decode([Movie].self, from: data) else
+        { fatalError("Failed to decode \(file) from bundle.")}
+        
+        loaded.forEach { print($0.title)}
+        
         setupCollectionView()
         createDataSource()
         reloadData()
@@ -65,8 +77,8 @@ class ViewController: UIViewController {
     private func reloadData() {
         var snapshot = Snapshot()
         snapshot.appendSections(Section.allCases)
-        snapshot.appendItems([Movie()], toSection: .hero)
-        snapshot.appendItems([Movie(), Movie(), Movie(), Movie(), Movie()], toSection: .movie)
+        snapshot.appendItems([], toSection: .hero)
+        snapshot.appendItems([], toSection: .movie)
         dataSorce.apply(snapshot)
     }
 }
