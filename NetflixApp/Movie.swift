@@ -5,4 +5,8 @@ struct Movie: Codable, Hashable {
     let overview: String
     let posterPath: String
     let title: String
+    
+    var posterUrl: String {
+        "https://image.tmdb.org/t/p/w500\(posterPath)"
+    }
 }

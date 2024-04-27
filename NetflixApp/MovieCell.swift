@@ -18,7 +18,16 @@ final class MovieCell: UICollectionViewCell, SelfCofiguringMovieCell {
     }
     
     func configure(with movie: Movie) {
-        movieImageView.image = .strangerThings
+        if let url = URL(string: movie.posterUrl) {
+            let downloadQueue = DispatchQueue(label: "imageDownloadQueue")
+            downloadQueue.async {
+                if let data = NSData(contentsOf: url) {
+                    DispatchQueue.main.async {
+                        self.movieImageView.image = UIImage(data: data as Data)
+                    }
+                }
+            }
+        }
     }
     
     private func setupViews() {
